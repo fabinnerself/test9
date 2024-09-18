@@ -1,0 +1,120 @@
+{
+  "usuario": [
+    {
+      "id": "29",
+      "nombre_usuario": "juanperez",
+      "email": "juanperez@example.com",
+      "password": "password123",
+      "fecha_registro": "2024-08-27 10:20:08",
+      "id_persona": "11",
+      "id_reg": null,
+      "fecha_mod": null,
+      "id_user_mod": null,
+      "rol": "estudiante"
+    },
+    {
+      "id": "30",
+      "nombre_usuario": "mariagomez",
+      "email": "mariagomez@example.com",
+      "password": "password456",
+      "fecha_registro": "2024-08-27 10:20:08",
+      "id_persona": "12",
+      "id_reg": null,
+      "fecha_mod": null,
+      "id_user_mod": null,
+      "rol": "instructor"
+    },
+    {
+      "id": "31",
+      "nombre_usuario": "pedromartinez",
+      "email": "pedromartinez@example.com",
+      "password": "password789",
+      "fecha_registro": "2024-08-27 10:20:08",
+      "id_persona": "13",
+      "id_reg": null,
+      "fecha_mod": null,
+      "id_user_mod": null,
+      "rol": "estudiante"
+    },
+    {
+      "id": "32",
+      "nombre_usuario": "luciarodriguez",
+      "email": "luciarodriguez@example.com",
+      "password": "password123",
+      "fecha_registro": "2024-08-27 10:20:08",
+      "id_persona": "14",
+      "id_reg": null,
+      "fecha_mod": null,
+      "id_user_mod": null,
+      "rol": "estudiante"
+    },
+    {
+      "id": "33",
+      "nombre_usuario": "carlosfernandez",
+      "email": "carlosfernandez@example.com",
+      "password": "password456",
+      "fecha_registro": "2024-08-27 10:20:08",
+      "id_persona": "15",
+      "id_reg": null,
+      "fecha_mod": null,
+      "id_user_mod": null,
+      "rol": "administrador"
+    }     
+  ],
+  "roleaccess":[
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "customer":[
+    {
+      "code":1,
+      "name":"Chris",
+      "email":"chris@in.com"
+    },
+    {
+      "code":2,
+      "name":"Lynn",
+      "email":"lynn@in.com"
+    },
+    {
+      "code":3,
+      "name":"Tim",
+      "email":"tim@in.com"
+    },
+    {
+      "code":4,
+      "name":"Southee",
+      "email":"southee@in.com"
+    },{
+      "code":5,
+      "name":"boult",
+      "email":"bould@in.com"
+    }
+  ]
+}
